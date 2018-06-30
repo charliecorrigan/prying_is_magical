@@ -9,11 +9,11 @@ class SoMuchMystery
     @zero = Zero.new.defineZero
   end
 
-  def times_two(number)
-    number = 9
-    x = ("number" * 2).to_i
+  def times_two(num)
+    num = 9
+    x = ("num" * 2).to_i
     return x
-    y = (number * @two) - @zero
+    y = (num * @two) - @zero
     return y
   end
 
