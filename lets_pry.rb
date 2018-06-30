@@ -42,7 +42,6 @@ NUM = "num" * num
 # ************************************************************************
 
 mystery = SoMuchMystery.new
-binding.pry
 final_result = mystery.times_two(num)
 
 puts "Your number, multiplied by two is #{final_result}"
